@@ -1,0 +1,21 @@
+Command: vi file_processing.c
+Explanation: Here we use the vi editor to create the C program using Linux system calls.
+
+Command: gcc file_processing.c -o file_processing
+Explanation: The gcc compiler is used here to compile the C source file and to create an executable program.
+
+Command: ./file_processing
+Explanation: This executes the executable program created using gcc.
+
+Command: cat employees.txt
+Explanation: The cat command displays the contents of the employee file after it was updated.
+
+open(): This creates or opens the employee file for reading and writing.
+
+write(): This writes employee records into the file.
+
+lseek(): This moves the file pointer to a specific position so that a record can be updated without rewriting the entire file.
+
+read(): This reads the contents of the file into memory.
+
+close(): This closes the file and releases the file descriptor after all operations are complete.
