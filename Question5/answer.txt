@@ -1,0 +1,9 @@
+Recovery mechanisms in the vi editor are as follows:
+
+1. Swap Files: The vi editor makes a swap file when we are editing a file. If the computer crashes we can use this swap file to get back the changes we did not save.
+2. Undo History: We can use Undo to go to how our file was before we made some changes. This however only works if the vi editor is still open. It does not work if the computer crashes.
+3. Registers: Registers are a place to store text we copied or deleted. They are helpful when we are editing. They however cannot help us get back a file if the computer crashes.
+4. Backup Files: When we make a file, it saves a copy of our original file as a backup file. So if something happens to the file we are working on, we can use the back up file.
+5. Auto-Recovery: If the computer crashes and we open the vi editor again, it will look for a swap file. If it finds one, it will ask us if we want to restore the work we did not save.
+
+The best way to recover work is to use the swap file and the auto-recovery feature of the vi editor. This helps us get back the changes we made to a file even if the computer crashes. This way we do not lose a lot of work.

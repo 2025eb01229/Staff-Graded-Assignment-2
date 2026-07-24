@@ -1,0 +1,5 @@
+Command: vi answer.txt
+Explanation: The vi editor is used here to create a text file explaining the recovery mechanisms available in vi editor.
+
+Command: cat answer.txt
+Explanation: The cat command displays the contents of the answer.txt file.
