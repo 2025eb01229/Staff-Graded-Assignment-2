@@ -1,0 +1,14 @@
+Command: vi server.log
+Explanation: The vi editor is used here to create a sample log file containing the INFO and ERROR messages.
+
+Command: tail -f server.log
+Explanation: This command continuously monitors the log file and displays new entries as they are added.
+
+Command: grep "ERROR" server.log
+Explanation: This command is used to search the log file and display only the ERROR messages.
+
+Command: grep "ERROR" server.log > error_report.txt
+Explanation: The > operator is used here to redirect the ERROR messages into a separate report file.
+
+Command: cat error_report.txt
+Explanation: This command displays the contents of the generated report in the txt file.
