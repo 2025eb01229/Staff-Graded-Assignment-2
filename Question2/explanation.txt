@@ -1,0 +1,10 @@
+Command: gcc process_manager.c -o process_manager
+Explanation: gcc compiler is used to compile the C source file and to generate an executable file named process_manager.
+
+Command: ./process_manager
+Explanation: Executes the executable file created using gcc.
+
+The fork() system call is used to create a new child process. 
+wait(NULL) is used by the parent process to wait for the child process to finish and then collects its exit status. This prevents zombie processes from occuring and keeps the system responsive.
+kill(pid, SIGTERM) is used by the parent process to send a termination signal to an unresponsive child process. 
+SIGTERM allows the operating system to safely terminate the child process.
